@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style type="text/css">
+    body{
+      font-family: "Time News Roman";
+    }
+    .navbar{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background-color: rgb(167, 168, 168);
+      font-size: 18px;
+    }
+    .navbar-brand{
+      font-family: 'STLiti';
+      font-size: 30px;
+    }
+    a:visited {
+      color: rgb(250, 184, 236);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    h1{
+      font-size: 45px;
+    }
+    h2{
+      font-family: 'Monotype Corsiva';
+      font-size: 60px;
+    }
+    h3{
+      font-family: 'Berlin Sans FB Demi';
+      font-size: 25px;
+    }
+    #Home{
+      padding-top: 120px;
+      padding-bottom: 300px;
+      text-align: center;
+      font-size: 50px;
+      font-family: 'forte';
+      background-color: rgb(235, 241, 250);
+    }
+    #Profile{
+      padding-top: 90px;
+      padding-bottom: 300px;
+      font-family:'Cascadia Code SemiBold';
+      font-size: 21px;
+      background-color: rgba(209, 232, 245, 0.918);
+    }
+    #Education{
+      padding-top: 200px;
+      padding-bottom: 300px;
+      font-family:'Lucida Fax';
+      font-size: 22px;
+      background-color: aliceblue;
+    }
+    #Organization{
+      padding-top: 200px;
+      padding-bottom: 300px;
+      font-family: 'Lucida Fax';
+      font-size: 22px;
+      background-color:rgb(220, 235, 245);
+    }
+    #Schedule{
+      padding-top: 70px;
+      padding-bottom: 300px;
+      font-family:'Cambria Math';
+      font-size: 17px;
+      background-color: rgb(206, 230, 240);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td{
+      border: 1px solid #0f0f0f;
+    }
+    th, td {
+      background-color: #d9e4e9 ;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: rgb(191, 196, 201);
+      color: #d9d9d9;
+    }
+    #MoreInformation{
+      padding-top: 200px;
+      padding-bottom: 300px;
+      font-family:Helvetica;
+      background-color: rgb(209, 220, 223);
+    }
+    .footer{
+      text-align: center;
+      background-color: #041133;
+      color: #fff;
+      padding: 10px; 
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#Aryn">Ar.yn</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Profile">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Education</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#Organization">Organization</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#Schedule">Schedule</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#MoreInformation">More Information</a>
+        </li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="Home">
+  <div class="container">
+    <img src="foto/Ariyani.JPG" class="rounded-circle" height="350px" width="280px"></img>
+    <br>
+    <h1>Welcome to My Website</h1>
+    <h3>Let's Go to Introduce My Self</h2>
+  </div>
+</section>
+<section id="Profile">
+  <div class="container">
+    <h2>Profile</h2>
+    <br>
+        <div class="profilDetail">
+          <table>
+            <tr>
+              <td>Nama Lengkap</td>
+              <td>:</td>
+              <td>Rini Ariyani</td>
+              </tr>
+            <tr>
+              <td>Tempat, Tanggal Lahir</td>
+              <td>:</td>
+              <td>Sumenep, 21 Juni 2003</td>
+            </tr>
+            <tr>
+              <td>Jenis Kelamin</td>
+              <td>:</td>
+              <td>Perempuan</td>
+            </tr>
+            <tr>
+              <td>Status</td>
+              <td>:</td>
+              <td>Belum Menikah</td>
+            </tr>
+            <tr>
+              <td>Agama</td>
+              <td>:</td>
+              <td>Islam</td>
+            </tr>
+            <tr>
+              <td>Kewarganegaraan</td>
+              <td>:</td>
+              <td>WNI</td>
+            </tr>
+            <tr>
+              <td>Alamat</td>
+              <td>:</td>
+              <td>Desa Adat Tuban, Kec. Kuta, Kab. Badung, Prov. Bali</td>
+            </tr>
+          </table>
+        </div>
+  </div>
+</section>
+<section id="Education">
+  <div class="container">
+    <h2>Education</h2>
+      <div class="footer-list">
+        <ul>
+          <li><b>SD No. 2 Tuban (2009-2015)</b></li>
+          <li><b>SMP Ibrahimy 3 Sukorejo (2015-2018)</b></li>
+          <li><b>SMA Ibrahimy Sukorejo (2018-2021)</b></li>
+          <li><b>Universitas Islam Negeri Maulana Malik Ibrahim Malang (2021-sekarang)</b></li>
+        </ul>
+      </div>
+
+  </div>
+</section>
+<section id="Organization">
+  <div class="container">
+    <h2>Organization</h2>
+      <div class="footer-list">
+        <ul>
+          <li><b>Panitia KOMET XXI (Academic Team)</b></li>
+          <li><b>Panitia KOMET XXII (Academic Team)</b></li>
+          <li><b>Panitia PBAK-F 2022 (Sie Pendamping)</b></li>
+          <li><b>Pengurus IKMASS Malang Raya 2021-2022 (Div Ekonomi)</b></li>
+          <li><b>Pengurus IKMASS Malang Raya 2022-2023 (Badan Pengurus Harian)</b></li>
+          <li><b>Bendahara Rapat Kerja IKMASS Malang Raya 2023</b></li>
+          <li><b>Pengurus Forma 2023-2024 (Depart Pendidikan dan Beasiswa)</b></li>
+        </ul>
+</section>
+<section id="Schedule">
+  <div class="container">
+    <h2>Schedule</h2>
+      <table width="468" cellpadding="5" cellspacing="0">
+          <tr>
+              <th width="15">No.</th>
+              <th width="91">Hari</th>
+              <th width="96">Pukul</th>
+              <th width="137">Mata Kuliah</th>
+          </tr>
+          <tr>
+              <td>1.</td>
+              <td>Senin</td>
+              <td>09.00 - 10.40</td>
+              <td>Praktikum Pemodelan Matematika</td>
+          </tr>
+          <tr>
+              <td>2.</td>
+              <td>Selasa</td>
+              <td>06.30 - 08.10</td>
+              <td>Pemodelan Matematika</td>
+          </tr>
+          <tr>
+              <td>3.</td>
+              <td>Selasa</td>
+              <td>09.00 - 11.30</td>
+              <td>Statistika Matematika</td>
+          </tr>
+          <tr>
+              <td>4.</td>
+              <td>Rabu</td>
+              <td>06.30 - 09.00</td>
+              <td>Analisis Numerik I</td>
+          </tr>
+          <tr>
+              <td>5.</td>
+              <td>Rabu</td>
+              <td>09.00 - 11.30</td>
+              <td>Geometri Analitik</td>
+          </tr>
+          <tr>
+              <td>6.</td>
+              <td>Rabu</td>
+              <td>14.00 - 15.40</td>
+              <td>Praktikum Pemrograman Komputer II</td>
+          </tr>
+          <tr>
+              <td>7.</td>
+              <td>Kamis</td>
+              <td>06.30 - 08.10</td>
+              <td>Pemrograman Komputer II</td>
+          </tr>
+          <tr>
+              <td>8.</td>
+              <td>Kamis</td>
+              <td>09.00 - 11.30</td>
+              <td>Analisis Kompleks</td>
+          </tr>
+          <tr>
+              <td>9.</td>
+              <td>Kamis</td>
+              <td>14.00 - 15.40</td>
+              <td>Kapita Selekta Aljabar</td>
+          </tr>
+          <tr>
+              <td>10.</td>
+              <td>Jumat</td>
+              <td>09.50 - 11.30</td>
+              <td>Aljabar Linier Lanjut</td>
+          </tr>
+      </table>
+  </div>
+</section>
+<section id="MoreInformation">
+    <div class="container">
+      <h2>More Information</h2>
+      <a href="https://api.whatsapp.com/send?phone=6285792607585" target="_blank">
+        <img src="https://tweakhub.net/img/WhatsApp.png" alt="WhatsApp" height="50px" hspace="10">
+      </a>
+      <a href="mailto:riniariyani216@gmail.com" target="_blank">
+        <img src="https://img1.pngdownload.id/20180811/wfj/kisspng-gmail-computer-icons-clip-art-email-vector-graphic-gmail-reviews-find-the-best-apps-influenster-5b6e94796a8eb7.6760841315339736254365.jpg" alt="gmail" height="50px" hspace="10">
+      </a>
+      <a href="https://www.instagram.com/ariyani_216?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+        <img src="https://th.bing.com/th/id/R.f42cbd1e71c7b74712dd7a51e63a4078?rik=DcBXTjZf%2bvAa9Q&riu=http%3a%2f%2fartestudio.me%2fwp-content%2fuploads%2f2014%2f10%2fInstagram_logo_2016-min.jpg&ehk=rwN2aFqxklW9VvI2%2f85WBaOwYgz0klqsPM1Ow0KYqF8%3d&risl=&pid=ImgRaw&r=0" alt="Instagram" height="50px" hspace="10">
+      </a>
+    </div>
+</section>
+<div class="footer">
+    <footer>
+      <p>&copy; 2023 Ariyani_216</p>
+    </footer>
+</div> 
+</body>
